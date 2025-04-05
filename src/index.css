@@ -50,7 +50,7 @@ footer {
     @apply text-gray-500 font-bold p-2 rounded-lg;
 }
 .pokemonListItem button:hover{
-    @apply hover:bg-red-600 text-white transition-all duration-200;
+    @apply hover:bg-red-600 text-white transition-all cursor-pointer duration-200;
 }
 
 @import "./styles/paging.css";
