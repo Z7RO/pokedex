@@ -4,7 +4,7 @@ export const NavBar = () => {
         <nav className="navigation">
             <ul>
                 <li>
-                    <NavLink to="/pokedex">Dashboard</NavLink>
+                    <NavLink to="/">Dashboard</NavLink>
                 </li>
                 <li>
                     <NavLink to="/my-collection">My Collection</NavLink>

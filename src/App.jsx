@@ -7,10 +7,11 @@ import { Layout } from './pages/Layout';
 import { About } from './pages/about';
 
 import './App.css'
+import { HashRouter } from 'react-router';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes >
         <Route element={<Layout />}>
           <Route index element={<DashboardPage/>} />
@@ -19,7 +20,7 @@ function App() {
           <Route path="details/:pokeid" element={<Details />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
